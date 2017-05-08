@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 阴影部分 -->
+    <item
+        android:top="0dp">
+        <shape>
+
+            <gradient
+                android:angle="270"
+                android:startColor="#880000ff"
+                android:endColor="#080000ff"/>
+
+        </shape>
+    </item>
+
+    <!-- 背景部分 -->
+    <item
+        android:bottom="0dp">
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="@color/nav_bar_bg" />
+
+        </shape>
+
+    </item>
+
+</layer-list>
